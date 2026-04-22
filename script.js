@@ -53,7 +53,7 @@ function pesanProduk(nama, harga, inputId) {
 
   let total = harga * qty;
 
-  let nomor = "6282147314910";
+  let nomor = "6285838762115";
 
   let pesan = "Halo saya mau pesan " + nama + " jumlah " + qty + " total " + total;
 
