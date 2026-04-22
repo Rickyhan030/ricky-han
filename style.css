@@ -43,34 +43,9 @@ body {
   text-align: center;
   background: linear-gradient(135deg, #2c7be5, #00c6ff);
   color: white;
-  padding: 20px;
+  padding: 40px 20px;
 }
 
-.hero h1 {
-  font-size: 40px;
-}
-
-.hero p {
-  margin: 10px 0;
-  font-size: 18px;
-}
-
-.hero button {
-  margin-top: 15px;
-  padding: 12px 20px;
-  background: #00c853;
-  border: none;
-  color: white;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.hero {
-  background: linear-gradient(
-    rgba(44,123,229,0.9),
-    rgba(0,198,255,0.9)
-  );
-}
 
 /* SECTION */
 section {
