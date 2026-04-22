@@ -1,5 +1,5 @@
 function wa() {
-  var nomor = "6285738762115"; // ganti nomor kamu
+  var nomor = "6285738672115"; // ganti nomor kamu
   var text = "Halo, saya ingin pesan ayam kampung";
   
   var url = "https://wa.me/" + nomor + "?text=" + encodeURIComponent(text);
@@ -54,7 +54,7 @@ function pesanProduk(nama, harga, inputId) {
 
   let total = harga * qty;
 
-  let nomor = "6285838762115";
+  let nomor = "6285738672115";
 
   let pesan = "Halo saya mau pesan " + nama + " jumlah " + qty + " total " + total;
 
