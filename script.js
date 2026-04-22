@@ -1,5 +1,5 @@
 function wa() {
-  var nomor = "6285838762115"; // ganti nomor kamu
+  var nomor = "6285738762115"; // ganti nomor kamu
   var text = "Halo, saya ingin pesan ayam kampung";
   
   var url = "https://wa.me/" + nomor + "?text=" + encodeURIComponent(text);
