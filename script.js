@@ -1,8 +1,9 @@
 function wa() {
-  let nomor = "6285838762115";
-  let text = "Halo kak, saya tertarik membeli ayam kampung 🐔\nBoleh info lebih lanjut?";
-  let url = "https://wa.me/" + nomor + "?text=" + encodeURIComponent(text);
-
+  var nomor = "6285838762115"; // ganti nomor kamu
+  var text = "Halo, saya ingin pesan ayam kampung";
+  
+  var url = "https://wa.me/" + nomor + "?text=" + encodeURIComponent(text);
+  
   window.open(url, "_blank");
 }
 
