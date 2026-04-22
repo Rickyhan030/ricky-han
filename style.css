@@ -36,13 +36,14 @@ body {
 
 /* HERO */
 .hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding: 100px 20px;
+  background: linear-gradient(135deg, #2c7be5, #00c6ff);
   color: white;
-
-  background: 
-    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url('ayam-kub.jpg') center/cover no-repeat;
+  padding: 20px;
 }
 
 .hero h1 {
@@ -62,6 +63,13 @@ body {
   color: white;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.hero {
+  background: linear-gradient(
+    rgba(44,123,229,0.9),
+    rgba(0,198,255,0.9)
+  );
 }
 
 /* SECTION */
